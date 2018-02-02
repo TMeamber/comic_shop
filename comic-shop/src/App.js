@@ -12,15 +12,20 @@ class App extends Component {
   render() {
     return (
       <div className="navbar">
+        <Link to='/'>
+        <div className='Home'>Home</div>
+        </Link>
         <Link to='/Products'>
         <div className='Products'>Products</div>
         </Link>
         <Link to='/About_us'>
         <div className='About_us'>About Us</div>
         </Link>
+        <div className='routes'>
         <Route exact path='/' component={Home}/>
         <Route path='/Products' component={Products}/>
         <Route path='/About_Us' component={About_us}/>
+        </div>
       </div>
     );
   }
