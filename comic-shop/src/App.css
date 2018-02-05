@@ -1,9 +1,8 @@
 a {
     text-decoration: none;
-    color: black;
   }
   body {
-    background-color: turquoise;
+    background-color: royalblue;
   }
 
   .App {
@@ -17,14 +16,13 @@ a {
   background-color: #333333; 
   color: white;
   display: flex;
-  display: row;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 21px;
   }
 
   .Home {
 color: white;
-padding-top: 15px;
+padding-top: 12px;
 font-size: 14px;
 font-weight: 200;
 text-transform: uppercase;
@@ -51,4 +49,16 @@ padding-top: 15px;
 font-size: 14px;
 font-weight: 200;
 text-transform: uppercase;
+  }
+
+  .logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .Marvel {
+    height: 82px;
+  }
+  .DC {
+    height: 82px;
   }
