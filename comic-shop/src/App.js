@@ -32,12 +32,12 @@ class App extends Component {
         <Link to='/Contact_us'>
         <div className='Contact'>Contact Us</div>
         </Link>
+        </div>
         <div className='routes'>
         <Route exact path='/' component={Home}/>
         <Route path='/Products' component={Products}/>
         <Route path='/About_Us' component={About_us}/>
         <Route path='/Contact_us' component={Contact_us}/>
-        </div>
         </div>
         </div>
     );
