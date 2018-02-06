@@ -1,4 +1,21 @@
 .info{
+    display:block;
+    width:30%; 
+    margin:0 auto; 
+    position:relative;
+    font-size:12px;
+    font-weight: 100;
+    color:white;
+    border:none;
+    background-color: black;
+    text-align:center;
+    text-transform: uppercase; 
+}
+
+.CC {
+    height: 350px;
+    margin-left: 50px;
     display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
 }

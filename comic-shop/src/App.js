@@ -21,22 +21,22 @@ class App extends Component {
       </div>
       <div className="navbar">
         <Link to='/'>
-        <div className='Home'>Home</div>
+        <div className='Hm'>Home</div>
         </Link>
         <Link to='/Products'>
-        <div className='Products'>Products</div>
+        <div className='Prod'>Products</div>
         </Link>
         <Link to='/About_us'>
-        <div className='About_us'>About Us</div>
+        <div className='About'>About Us</div>
         </Link>
         <Link to='/Contact_us'>
-        <div className='Contact_us'>Contact Us</div>
+        <div className='Contact'>Contact Us</div>
         </Link>
         <div className='routes'>
         <Route exact path='/' component={Home}/>
         <Route path='/Products' component={Products}/>
         <Route path='/About_Us' component={About_us}/>
-        <Route path='/Contact_us' componet={Contact_us}/>
+        <Route path='/Contact_us' component={Contact_us}/>
         </div>
         </div>
         </div>

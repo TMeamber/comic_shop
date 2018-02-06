@@ -20,7 +20,7 @@ a {
   margin-top: 21px;
   }
 
-  .Home {
+  .Hm {
 color: white;
 padding-top: 12px;
 font-size: 14px;
@@ -28,7 +28,7 @@ font-weight: 200;
 text-transform: uppercase;
   }
 
-  .Products {
+  .Prod {
 color: white;
 padding-top: 15px;
 font-size: 14px;
@@ -36,14 +36,14 @@ font-weight: 200;
 text-transform: uppercase;
   }
 
-  .About_us {
+  .About {
 color: white;
 padding-top: 15px;
 font-size: 14px;
 font-weight: 200;
 text-transform: uppercase;
   }
-  .Contact_us {
+  .Contact {
 color: white;
 padding-top: 15px;
 font-size: 14px;
