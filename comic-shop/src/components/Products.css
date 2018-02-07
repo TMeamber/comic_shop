@@ -1,0 +1,27 @@
+.products {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 63px;
+    padding-left: 66px;
+}
+
+.comics {
+    height: 260px;
+    padding: 15px;
+}
+
+.vinyl {
+    height: 260px;
+    padding: 15px;
+}
+
+.cards {
+    height: 260px;
+    padding: 15px;
+}
+
+.figures {
+    height: 260px;
+    padding: 15px;
+}
