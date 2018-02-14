@@ -5,10 +5,9 @@
     position:relative;
     font-size: 18px;
     font-weight: 400;
-    color:black;
-    border:none;
+    color:white;
+    border: green;
     text-align:center;
-    text-transform: uppercase; 
 }
 
 .CC {
